@@ -1,0 +1,95 @@
+body{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+p{
+	font-family: 'Dancing Script', cursive;
+	font-size: 23px;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+h1,h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.8));
+	border-bottom: 4px solid rgb(235, 130, 49);
+	margin: 0px;
+}
+
+#Header{
+	text-align: center;
+	color: rgb(255, 234, 200);
+	font-size: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+main{
+}
+
+h1{
+	color: rgb(255, 234, 200);
+	text-align: center;
+}
+
+.reads{
+	text-align: center;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	padding: 0 0 0 0;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.flex-elem{
+	text-align: left;
+	padding-right: 0;
+}
+
+.flex-elem1{
+	text-align: right;
+	padding: 0px;
+}
+
+.separation{
+	border-bottom: 5px solid black;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 30vw;
+	margin-left: 30vw;
+}
+
+footer{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: rgb(255, 234, 200);
+	background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.8));
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#wish{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 7px;
+	font-size: 45px;
+}
